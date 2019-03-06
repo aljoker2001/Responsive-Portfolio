@@ -60,6 +60,7 @@ p, label {
     width: 960px;
     height: auto;
     margin-bottom: auto;
+    border: 1px solid #cccccc;
 }
 
 .container::after {
@@ -139,7 +140,8 @@ div::after {
 .myPic {
     width: 33%;
     height: auto;
-    padding-right: 20px; 
+    margin-right: 20px; 
+    box-shadow: 3px 3px 5px #333;
 }
 
 .bio {
@@ -155,6 +157,7 @@ div::after {
 
 .each {
     transition: all 0.5s;
+    box-shadow: 3px 3px 5px #333;
 }
 
 .each:hover {
@@ -167,6 +170,7 @@ div::after {
     color: #ffffff;
     width: auto;
     text-align: center;
+    margin: 0;
 }
 
 #projects {
