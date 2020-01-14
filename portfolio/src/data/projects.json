@@ -54,7 +54,7 @@
             "name": "Liri App",
             "alt": "node image",
             "GitHub": "https://github.com/aljoker2001/liri-node-app",
-            "description": "This node.js application takes in various commands and provides information on your movies, songs, and upcoming concert details of your favorite bands."
+            "description": "This node.js app provides info on movies, songs, and upcoming concert details for your favorite bands."
         },
         {
             "link": "#",
