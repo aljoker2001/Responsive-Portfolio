@@ -4,7 +4,7 @@ import Form from '../components/Form';
 function Contact() {
     return (
         <div>
-            <h1 className='text-white'>Contact</h1>
+            <h1 className='text-white' id='contact'>Contact</h1>
             <Form />
         </div>
     )

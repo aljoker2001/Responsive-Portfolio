@@ -5,7 +5,7 @@ var projects = require('../data/projects.json').projects
 function Portfolio(props) {
     return (
         <div>
-            <h1 className='text-white'>Portfolio</h1>
+            <h1 className='text-white' id='portfolio'>Portfolio</h1>
             <div className='d-flex flex-wrap'>
                 {projects.map((project) => (
                     <Project 
