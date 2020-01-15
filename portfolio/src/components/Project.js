@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Project(props) {
     return (
@@ -10,11 +10,11 @@ function Project(props) {
                 </div>
                 <div className="flip-card-back p-3">
                     <p className='description'>{props.description}</p>
-                    <a href={props.GitHub} target='_blank'><img className='github' src='https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Focticons.github.com%2Fimg%2Fog%2Fmark-github.png&sp=483316e996808883502ecbf0ae442d55&anticache=240755' style={{ width: 100 + 'px' }} /></a>
+                    <a href={props.GitHub} target='_blank'><img className='github' src='https://s14-eu5.startpage.com/cgi-bin/serveimage?url=http%3A%2F%2Ficonsetc.com%2Ficons-watermarks%2Fflat-square-white-on-black%2Fsocial-media%2Fsocial-media_github%2Fsocial-media_github_flat-square-white-on-black_512x512.png&sp=90b4b7d41fc2c0e4d30c352dacc16eaf&anticache=907940' style={{ width: 60 + 'px' }} /></a>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Project
+export default Project;

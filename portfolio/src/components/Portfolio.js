@@ -1,12 +1,12 @@
 import React from 'react';
-import Project from './Project'
+import Project from './Project';
 
-var projects = require('../data/projects.json').projects
+var projects = require('../data/projects.json').projects;
 function Portfolio(props) {
     return (
         <div>
-            <h1 className='text-white' id='portfolio'>Portfolio</h1>
-            <div className='d-flex flex-wrap'>
+            <h1 className='text-white py-5' id='portfolio'>Portfolio</h1>
+            <div className='d-flex flex-wrap purpleBackground pt-4'>
                 {projects.map((project) => (
                     <Project 
                     link={project.link}
@@ -19,7 +19,7 @@ function Portfolio(props) {
                             ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Portfolio;
