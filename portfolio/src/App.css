@@ -114,6 +114,12 @@ a, a:hover {
   transform: scale(1.1);
 }
 
+.splash {
+  background: url('https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  height: 800px;
+  color: white;
+}
+
 h1 {
   font-size: 5em;
 }
