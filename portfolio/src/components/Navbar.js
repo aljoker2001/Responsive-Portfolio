@@ -27,16 +27,16 @@ function Navbar() {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="d-flex justify-content-end navbar-nav mr-auto">
-                    <li className={active == 'about' ? "nav-item active" : "nav-item"}>
+                    <li className={active === 'about' ? "nav-item active" : "nav-item"}>
                         <a className="nav-link" href="#" onClick={snapTo}>About</a>
                         {/* <span className="sr-only">(current)</span> */}
                     </li>
-                    <li className={active == 'portfolio' ? "nav-item active" : "nav-item"}>
+                    <li className={active === 'portfolio' ? "nav-item active" : "nav-item"}>
                         <a className="nav-link" href="#" onClick={snapTo}>Portfolio</a>
                     </li>
-                    {/* <li className={active == 'contact' ? "nav-item active" : "nav-item"}>
+                    <li className={active === 'contact' ? "nav-item active" : "nav-item"}>
                         <a className="nav-link" href="#" onClick={snapTo}>Contact</a>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </nav>
